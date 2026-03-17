@@ -168,7 +168,7 @@ p { margin-top: 0; margin-bottom: 1rem; }
 }
 
 .btn:hover,
-.btn:focus { transform: translateY(-2px); } /* little lift on hover */
+.btn:focus { transform: translateY(-2px); } /* lil lift on hover */
 
 /* button types */
 .btn-light {
