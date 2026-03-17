@@ -115,7 +115,7 @@ p { margin-top: 0; margin-bottom: 1rem; }
 
 /* hero section background */
 .hero {
-  background-image: url("/images/hero-background.jpg");
+  background-image: url("images/hero-background.jpg");
   background-size: cover;
   background-position: center 38%; /* focus on top of the image */
   background-repeat: no-repeat;
@@ -249,7 +249,7 @@ p { margin-top: 0; margin-bottom: 1rem; }
 /* mobile-first promo section */
 .promo-section {
   position: relative;
-  background-image: url("/images/coffee-shop.jpeg");
+  background-image: url("images/coffee-shop.jpeg");
   background-size: cover;       
   background-position: center;  /* center image for mobile */
   background-repeat: no-repeat;
