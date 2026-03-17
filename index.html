@@ -28,6 +28,7 @@
       <div class="wrapper header-inner">
 
         <!--  logo click = homepage -->
+          <!-- src to grab the image from inside the images folder and give it alt so when the image doesnt show up we know whats supposed to be there yk -->
         <a href="#" class="logo-link" aria-label="My Coffee House home">
           <img
             src="images/my-coffee-shop-logo.svg"
@@ -36,6 +37,7 @@
           />
         </a>
         <!--  main navbar -->
+          <!-- basically just the text u cvlick to know more about the company -->
         <nav aria-label="Primary navigation" class="main-nav">
           <ul class="nav-list">
             <li><a href="#about">About Us</a></li>
@@ -45,3 +47,84 @@
         </nav>
       </div>
     </header>
+
+        <!-- main content start -->
+    <main id="main-content">
+
+      <!-- hero section + headline + call to action -->
+      <section class="hero">
+        <div class="hero-overlay">
+          <div class="wrapper hero-content">
+            <h1>Experience Coffee Like Never Before</h1>
+            <p>
+              We craft more than beverages; we create moments of connection,
+              comfort, and flavour in every cup.
+            </p>
+            <a href="#menu" class="btn btn-light">Explore Our Menu</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- intro section with gallery -->
+      <section class="welcome section-light">
+        <div class="wrapper">
+          <p class="eyebrow">Welcome to My Coffee House</p>
+          <h2>Experience a New Way to Taste Coffee</h2>
+
+          <div class="gallery-grid">
+            <!-- main feature image -->
+            <img
+              src="/images/latte.jpeg"
+              alt="pouring latte art"
+              class="gallery-main"
+            />
+
+            <!-- supporting images -->
+            <img src="/images/coffee-beans.jpeg" alt="tray and coffee" />
+            <img src="/images/pouring-coffee.jpeg" alt="coffee into glass" />
+            <img src="/images/three-cups.jpeg" alt="2 ppl holding coffee" />
+            <img src="/images/smiling-employee.jpeg" alt="smiling guy holding cup of coffee" />
+          </div>
+        </div>
+      </section>
+
+      <!--  shop offers -->
+      <section class="offer section-light" aria-labelledby="offer-heading">
+        <div class="wrapper narrow">
+          <p class="eyebrow">What We Offer</p>
+          <h2 id="offer-heading">Why Visit Us?</h2>
+
+          <div class="offer-grid">
+            <!-- fair trade feature -->
+            <article class="offer-card">
+              <img src="/images/fair-trade.svg" alt="" aria-hidden="true" class="offer-icon" /> 
+              <h3>Fair Trade Coffee</h3>
+              <p>
+                We build direct partnerships with farmers and source products
+                ethically in the development of delicious, sustainable coffee.
+              </p>
+            </article>
+
+            <!-- baked goods feature -->
+            <article class="offer-card">
+              <img src="/images/local-baked-goods.svg" alt="" aria-hidden="true" class="offer-icon" />
+              <h3>Local Baked Goods</h3>
+              <p>
+                We work with local bakeries and bring the valley’s finest baked
+                goods to complement every beverage.
+              </p>
+            </article>
+
+            <!-- customer care feature -->
+            <article class="offer-card">
+              <img src="/images/made-with-love.svg" alt="" aria-hidden="true" class="offer-icon" />
+              <h3>Made With Love</h3>
+              <p>
+                We value our customers and aim to make your visit memorable.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      
