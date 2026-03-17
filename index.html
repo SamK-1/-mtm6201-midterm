@@ -1,24 +1,27 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>midterm</title>
+
     <meta
-      name="SEO"
+      name="description"
       content="My Coffee House landing page featuring premium coffee, fair trade beans, and local baked goods."
     />
+
     <!-- required fonts  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Lato:wght@400;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="skins/skin.css" />
-  </head>
-<!-- css entree -->
 
+    <link rel="stylesheet" href="skins/skin.css">
+  </head>
+
+  <!-- css entree -->
   <body>
     <!-- a skip -->
     <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -28,16 +31,13 @@
       <div class="wrapper header-inner">
 
         <!--  logo click = homepage -->
-          <!-- src to grab the image from inside the images folder and give it alt so when the image doesnt show up we know whats supposed to be there yk -->
+        <!-- src to grab the image from inside the images folder and give it alt so when the image doesnt show up we know whats supposed to be there yk -->
         <a href="#" class="logo-link" aria-label="My Coffee House home">
-          <img
-            src="images/my-coffee-shop-logo.svg"
-            alt="shop logo"
-            class="logo"
-          />
+          <img src="images/my-coffee-shop-logo.svg" alt="shop logo" class="logo">
         </a>
+
         <!--  main navbar -->
-          <!-- basically just the text u cvlick to know more about the company -->
+        <!-- basically just the text u cvlick to know more about the company -->
         <nav aria-label="Primary navigation" class="main-nav">
           <ul class="nav-list">
             <li><a href="#about">About Us</a></li>
@@ -48,7 +48,7 @@
       </div>
     </header>
 
-        <!-- main content start -->
+    <!-- main content start -->
     <main id="main-content">
 
       <!-- hero section + headline + call to action -->
@@ -73,17 +73,13 @@
 
           <div class="gallery-grid">
             <!-- main feature image -->
-            <img
-              src="/images/latte.jpeg"
-              alt="pouring latte art"
-              class="gallery-main"
-            />
+            <img src="./images/latte.jpeg" alt="pouring latte art" class="gallery-main">
 
             <!-- supporting images -->
-            <img src="/images/coffee-beans.jpeg" alt="tray and coffee" />
-            <img src="/images/pouring-coffee.jpeg" alt="coffee into glass" />
-            <img src="/images/three-cups.jpeg" alt="2 ppl holding coffee" />
-            <img src="/images/smiling-employee.jpeg" alt="smiling guy holding cup of coffee" />
+            <img src="./images/coffee-beans.jpeg" alt="tray and coffee">
+            <img src="./images/pouring-coffee.jpeg" alt="coffee into glass">
+            <img src="./images/three-cups.jpeg" alt="2 ppl holding coffee">
+            <img src="./images/smiling-employee.jpeg" alt="smiling guy holding cup of coffee">
           </div>
         </div>
       </section>
@@ -97,7 +93,7 @@
           <div class="offer-grid">
             <!-- fair trade feature -->
             <article class="offer-card">
-              <img src="/images/fair-trade.svg" alt="" aria-hidden="true" class="offer-icon" /> 
+              <img src="./images/fair-trade.svg" alt="" aria-hidden="true" class="offer-icon">
               <h3>Fair Trade Coffee</h3>
               <p>
                 We build direct partnerships with farmers and source products
@@ -107,7 +103,7 @@
 
             <!-- baked goods feature -->
             <article class="offer-card">
-              <img src="/images/local-baked-goods.svg" alt="" aria-hidden="true" class="offer-icon" />
+              <img src="./images/local-baked-goods.svg" alt="" aria-hidden="true" class="offer-icon">
               <h3>Local Baked Goods</h3>
               <p>
                 We work with local bakeries and bring the valley’s finest baked
@@ -117,7 +113,7 @@
 
             <!-- customer care feature -->
             <article class="offer-card">
-              <img src="/images/made-with-love.svg" alt="" aria-hidden="true" class="offer-icon" />
+              <img src="./images/made-with-love.svg" alt="" aria-hidden="true" class="offer-icon">
               <h3>Made With Love</h3>
               <p>
                 We value our customers and aim to make your visit memorable.
@@ -127,4 +123,109 @@
         </div>
       </section>
 
-      
+      <!-- promo blocks for menu and locations -->
+      <section class="promo-section">
+        <!-- menu promo -->
+        <div id="menu" class="promo-block">
+          <div class="promo-overlay">
+            <div class="wrapper promo-content">
+              <p class="eyebrow">Our Menu</p>
+              <h2>Explore What We Have to Offer You</h2>
+              <a href="#menu" class="btn btn-light">Explore Our Menu</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- locations promo -->
+        <div id="locations" class="promo-block">
+          <div class="promo-overlay">
+            <div class="wrapper promo-content">
+              <p class="eyebrow">Locations</p>
+              <h2>Find Your Nearest Coffee Shop</h2>
+              <a href="#locations" class="btn btn-outline">View Locations</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- about section with image and story -->
+      <section id="about" class="about section-light">
+        <div class="wrapper about-grid">
+
+          <!-- about image -->
+          <div class="about-image">
+            <img src="./images/about-us.jpeg" alt="baristas preparing coffee">
+          </div>
+
+          <!-- about text -->
+          <div class="about-content">
+            <p class="eyebrow">About Us</p>
+            <h2>Read Our Story</h2>
+            <p>
+              My Coffee House was founded to bring people together through coffee.
+            </p>
+            <p>
+              every drink is made with care to create a memorable experience.
+            </p>
+            <a href="#" class="btn btn-dark">Learn More</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- customer reviews -->
+      <!-- adding some fake ahh review for a company that in fact, does not exist lmao -->
+      <section class="testimonials section-dark" aria-labelledby="testimonials-heading">
+        <!-- wrapper for the entire review section so it feels like a review section not just comments spread randomly -->
+        <div class="wrapper">
+          <p class="eyebrow">Testimonials</p>
+          <h2 id="testimonials-heading">What Our Customers Say About Us</h2>
+
+          <div class="testimonial-grid">
+            <!-- first review -->
+            <article class="testimonial-card">
+              <h3 class="visually-hidden">Jane D review</h3>
+              <img src="./images/testimonial-1.jpeg" alt="customer enjoying coffee review">
+              <div class="testimonial-text">
+                <p>
+                  “I always make a point to visit My Coffee Company when in Ottawa.”
+                </p>
+                <span>Jane D, Toronto</span>
+              </div>
+            </article>
+
+            <!-- 2nd review -->
+            <article class="testimonial-card">
+              <h3 class="visually-hidden">Scott W review</h3>
+              <img src="./images/testimonial-2.jpeg" alt="smiling customer review">
+              <div class="testimonial-text">
+                <p>
+                  “Great atmosphere and excellent coffee.”
+                </p>
+                <span>Scott W, Ottawa</span>
+              </div>
+            </article>
+
+            <!-- 3rd review  -->
+            <article class="testimonial-card">
+              <h3 class="visually-hidden">Susan F review</h3>
+              <img src="./images/testimonial-3.jpeg" alt="customer holding a drink review">
+              <div class="testimonial-text">
+                <p>
+                  “cozy vibe and always fresh.”
+                </p>
+                <span>Susan F, Ottawa</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer with basic info -->
+    <footer class="site-footer">
+      <div class="wrapper">
+        <p>&copy; My Coffee House 2024</p>
+      </div>
+    </footer>
+  </body>
+</html>
